@@ -56,7 +56,7 @@ function game(level) {
             if (level < 7) {
                 wrapper.append(divColored(r + 64 - (level*8), g + 64 - (level*8), b + 64 - (level*8), size, "imposter"));
             } else {
-                wrapper.append(divColored(r + 20, g + 20, b + 20, size, "imposter"));
+                wrapper.append(divColored(r + 16, g + 16, b + 16, size, "imposter"));
             }
         } else {
             wrapper.append(divColored(r, g, b, size, "crew"));
